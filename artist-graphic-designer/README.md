@@ -1,1 +1,51 @@
-The requested file reference is not currently visible. Use files.search or files.list to rediscover the file, then retry with a returned ref_id or file_id.
+# Artist & Graphic Designer Skill
+
+**مهارة عربية عامة لبناء عقلية فنان ومصمم جرافيك محترف لدى أنظمة الذكاء الاصطناعي.**
+
+الهدف ليس جعل النموذج ينتج صورًا أكثر زخرفة، بل تحسين طريقة فهمه للمهمة، والعصف الذهني، وتطوير المفاهيم، والتوجيه الفني، والتكوين، والتنفيذ، والنقد الذاتي. ومن أهم أهدافها منع التصميمات النمطية الناتجة عن AI ومنع تحويل الملصقات والإعلانات والمنشورات إلى واجهات UI مصغّرة.
+
+## المحتويات
+
+```text
+artist-graphic-designer/
+├── SKILL.md
+├── README.md
+├── CHANGELOG.md
+├── references/
+│   ├── artistic-intelligence.md
+│   ├── brainstorming.md
+│   ├── art-direction.md
+│   ├── graphic-design-foundations.md
+│   ├── composition-layout.md
+│   ├── typography.md
+│   ├── color-imagery.md
+│   ├── visual-storytelling.md
+│   ├── anti-ai-slop.md
+│   ├── reference-analysis.md
+│   ├── design-critique.md
+│   ├── production-delivery.md
+│   └── decision-log.md
+└── evals/
+    ├── README.md
+    └── evals.json
+```
+
+## طريقة الاستخدام
+
+1. ضع مجلد `artist-graphic-designer` داخل مجلد المهارات الذي يقرأه نظام الوكيل أو المساعد.
+2. احتفظ باسم `SKILL.md` وبنية `references/` كما هي حتى تعمل الروابط النسبية.
+3. اجعل النظام يقرأ `SKILL.md` عند المهام المرتبطة بالتصميم الجرافيكي والإبداع البصري.
+4. يقرأ النموذج ملفات `references/` ذات الصلة فقط حسب نوع المهمة.
+5. استخدم `evals/evals.json` لاختبار المهارة على طلبات واقعية، ثم قارن النتائج قبل وبعد تفعيلها.
+
+## النطاق
+
+المهارة عامة وليست متخصصة في الطعام أو قطاع بعينه. يمكن ربطها لاحقًا بمهارات قطاعية أو أدوات تنفيذ متخصصة، دون جعل تلك المهارات تتحكم في التفكير الفني العام.
+
+## المبدأ الحاكم
+
+**المراجع للتعلّم لا للنسخ، والأفكار للتطوير لا لإعادة الصياغة، والتكوين البصري ليس واجهة مستخدم إلا إذا كان المخرج واجهة فعلًا.**
+
+## الحالة
+
+الإصدار `0.2.0` هو إصدار تأسيسي قابل للاختبار والتحسين. ملفات التقييم الحالية تحدد سيناريوهات اختبار وسلوكًا متوقعًا؛ لم تُجرَ بعد مقارنة تشغيلية بين النموذج مع المهارة وبدونها.
